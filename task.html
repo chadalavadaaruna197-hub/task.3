@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nature & Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🌿 Nature & Weather App</h1>
+
+  <!-- 🌿 Nature Carousel -->
+  <div class="carousel">
+    <button onclick="prevImage()">⬅</button>
+    <img id="carouselImage" alt="Nature Image">
+    <button onclick="nextImage()">➡</button>
+  </div>
+
+  <!-- 🌤 Weather App -->
+  <div class="weather-box">
+    <h2>Check Weather</h2>
+    <input type="text" id="city" placeholder="Enter city name">
+    <button onclick="getWeather()">Get Weather</button>
+    <p id="weatherResult"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
